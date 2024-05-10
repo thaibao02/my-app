@@ -27,29 +27,29 @@ import './App.css';
 // }
 //bai 3
 //•	Find the all person of the people array is teenager (age >=10 and age <=20)
-var people = [
-  {name: 'Jack', age: 50},
-  {name: 'Michael', age: 9}, 
-  {name: 'John', age: 40}, 
-  {name: 'Ann', age: 19}, 
-  {name: 'Elisabeth', age: 16}
-];
-let teenagers = [];
+// var people = [
+//   {name: 'Jack', age: 50},
+//   {name: 'Michael', age: 9}, 
+//   {name: 'John', age: 40}, 
+//   {name: 'Ann', age: 19}, 
+//   {name: 'Elisabeth', age: 16}
+// ];
+// let teenagers = [];
 
-for (let i = 0; i < people.length; i++) {
-  if (people[i].age >= 10 && people[i].age <= 20) {
-    teenagers.push(people[i]); // thêm người vào mảng có độ tuổi từ 10 tới 20
-  }
-}
+// for (let i = 0; i < people.length; i++) {
+//   if (people[i].age >= 10 && people[i].age <= 20) {
+//     teenagers.push(people[i]); // thêm người vào mảng có độ tuổi từ 10 tới 20
+//   }
+// }
 
-if (teenagers.length > 0) {
-  console.log("teenagers:");
-  for (let i = 0; i < teenagers.length; i++) {
-    console.log(teenagers[i].name + ", " + teenagers[i].age);
-  }
-} else {
-  console.log("not found.");
-}
+// if (teenagers.length > 0) {
+//   console.log("teenagers:");
+//   for (let i = 0; i < teenagers.length; i++) {
+//     console.log(teenagers[i].name + ", " + teenagers[i].age);
+//   }
+// } else {
+//   console.log("not found.");
+// }
 
 
 
